@@ -20,7 +20,7 @@ import { SiMongodb } from "react-icons/si";
 
 const TIIconsPages = () => {
   return (
-    <ul className="mt-5 flex flex-wrap gap-4">
+    <ul className="mt-5 flex flex-wrap gap-4 justify-center">
       <li className="text-6xl sm:text-4xl">
         <IoLogoJavascript />
       </li>

@@ -10,7 +10,7 @@ const Navbar = () => {
   const [navbarToggle, setNavbarToggle] = useState(true);
   return (
     <>
-      <nav className="bg-blue-950 border-gray-200 dark:bg-white-900">
+      <nav className="pb-5 bg-blue-950 border-gray-200 dark:bg-white-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between">
           <div
             style={{ display: "flex" }}

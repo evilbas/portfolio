@@ -10,13 +10,26 @@ const TechologiesPage = () => {
       <br />
       <TIIconsPages />
 
-      <div className="my-5">
+      <div className="my-5 animate-rotate-x ">
         <div>
           <h1 className="mb-4 text-3xl sm:text2xl text-center">Javascript</h1>
           <div className="flex flex-wrap justify-around gap-5">
             <div>
               <span
-                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-accent text-accent-content border-4 border-accent animate-ping animate-once"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Javascript</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950 animate-spin animate-once"
                 style={
                   {
                     "--value": 90,
@@ -29,7 +42,7 @@ const TechologiesPage = () => {
             </div>
             <div>
               <span
-                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950 animate-spin animate-once"
                 style={
                   {
                     "--value": 90,
@@ -42,7 +55,7 @@ const TechologiesPage = () => {
             </div>
             <div>
               <span
-                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950 animate-spin animate-once"
                 style={
                   {
                     "--value": 90,
@@ -52,38 +65,12 @@ const TechologiesPage = () => {
                 90%
               </span>
               <h1 className="text-center">Next.js</h1>
-            </div>
-            <div>
-              <span
-                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
-                style={
-                  {
-                    "--value": 90,
-                  } as CSSProperties
-                }
-              >
-                90%
-              </span>
-              <h1 className="text-center">Next.js</h1>
-            </div>
-            <div>
-              <span
-                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
-                style={
-                  {
-                    "--value": 90,
-                  } as CSSProperties
-                }
-              >
-                90%
-              </span>
-              <h1 className="text-center">Javascript</h1>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="my-5">
+      <div className="my-5 animate-bounce animate-twice">
         <div>
           <h1 className="mb-10 text-3xl sm:text2xl text-center">
             Java - Kotlin
