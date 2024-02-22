@@ -15,7 +15,6 @@ const ExperiencesPage = () => {
           January 24 -{" "}
           <span className="badge badge-primary p-2">In progress...</span>
         </p>
-
         <div className="mt-3">
           <p className="text-lg font-light text-justify">
             Je met en place une plateforme d&apos;apprentissage en ligne, de
@@ -117,9 +116,33 @@ const ExperiencesPage = () => {
             </span>
             .
           </p>
-          <h3 className="mt-4 text-xl font-sans badge badge-info p-3">
-            Missions
-          </h3>
+
+          <h3 className="mt-4 text-xl font-sans p-3">Missions</h3>
+          <div className="">
+            <p>Partciper à la conception et au développement de SOFTI</p>
+            <p>
+              Partciper à la conception de la base de données:{" "}
+              <span className="badge badge-neutral p-2">PostgreSQL</span>
+            </p>
+            <p>
+              Conception de l&apos;API:{" "}
+              <span className="badge badge-neutral p-2">PHP 8.0</span>
+            </p>
+            <p>
+              Conception des interfaces webisées:{" "}
+              <span className="badge badge-neutral">Angular 14</span>
+            </p>
+            <p>
+              Mise en place du processus d&apos;importation et
+              d&apos;exportation des données:{" "}
+              <span className="badge badge-neutral p-2">ETL</span>
+            </p>
+          </div>
+          <ul className="my-4 flex gap-2">
+            <li className="badge badge-primary p-2">Debian</li>
+            <li className="badge badge-primary p-2">Apache 2</li>
+            <li className="badge badge-primary p-2">Github</li>
+          </ul>
         </div>
       </div>
     </div>
