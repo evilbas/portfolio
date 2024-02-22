@@ -5,7 +5,10 @@ import UsersPage from "./users/page";
 export default function Home() {
   return (
     <div>
-      <div className="flex gap-4 justify-center" style={{ marginTop: "5rem" }}>
+      <div
+        className="flex flex-wrap gap-4 justify-center"
+        style={{ marginTop: "5rem" }}
+      >
         <CardSkillsPage
           title="My Card"
           description="Possibilité"

@@ -14,8 +14,8 @@ const CardSkillsPage = ({
   description,
 }: CardSkillProps) => {
   return (
-    <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
-      <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+    <div className="flex-none mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+      <div className="h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
         <Image
           className="animate-fade-up animate-once"
           src="/images/cardimage.jpg"
