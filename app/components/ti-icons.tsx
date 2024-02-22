@@ -20,62 +20,62 @@ import { SiMongodb } from "react-icons/si";
 
 const TIIconsPages = () => {
   return (
-    <ul className="mt-5 flex space-x-4">
-      <li className="text-4xl">
+    <ul className="mt-5 flex flex-wrap gap-4">
+      <li className="text-6xl sm:text-4xl">
         <IoLogoJavascript />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaNodeJs />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaReact />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <TbBrandNextjs />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaAngular />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaJava />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <TbBrandKotlin />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <SiSpringboot />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <SiQuarkus />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaPhp />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaSymfony />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaLaravel />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <SiCsharp />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaGitSquare />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <FaDocker />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <SiKubernetes />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <SiPostgresql />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <DiMysql />
       </li>
-      <li className="text-4xl">
+      <li className="text-6xl sm:text-4xl">
         <SiMongodb />
       </li>
     </ul>

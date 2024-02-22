@@ -4,22 +4,133 @@ import TIIconsPages from "../components/ti-icons";
 const TechologiesPage = () => {
   return (
     <div>
-      <h1 className="mb-2 text-center font-sans text-4xl">Technologies</h1>
-
+      <h1 className="mb-2 text-center font-sans text-4xl md:text-2xl">
+        Technologies
+      </h1>
+      <br />
       <TIIconsPages />
-      <table className="table w-full">
-        <thead>
-          <tr>
-            <th>Technologies</th>
-            <th>Level</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>React</td>
-            <td>
+
+      <div className="my-5">
+        <div>
+          <h1 className="mb-4 text-3xl sm:text2xl text-center">Javascript</h1>
+          <div className="flex flex-wrap justify-around gap-5">
+            <div>
               <span
-                className="radial-progress bg-blue-950 text-primary-content border-4 border-blue-950"
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Angular</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">React JS</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Next.js</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Next.js</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Javascript</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="my-5">
+        <div>
+          <h1 className="mb-10 text-3xl sm:text2xl text-center">
+            Java - Kotlin
+          </h1>
+          <div className="mt-10 flex flex-wrap justify-around gap-5">
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Java</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 90,
+                  } as CSSProperties
+                }
+              >
+                90%
+              </span>
+              <h1 className="text-center">Kotlin</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
+                style={
+                  {
+                    "--value": 80,
+                  } as CSSProperties
+                }
+              >
+                80%
+              </span>
+              <h1 className="text-center">Spring Boot</h1>
+            </div>
+            <div>
+              <span
+                className="mb-1 radial-progress text-center text-wrap text-sm bg-blue-950 text-primary-content border-4 border-blue-950"
                 style={
                   {
                     "--value": 70,
@@ -28,10 +139,11 @@ const TechologiesPage = () => {
               >
                 70%
               </span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              <h1 className="text-center">Quarkus</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

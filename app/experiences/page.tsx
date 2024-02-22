@@ -1,7 +1,7 @@
 const ExperiencesPage = () => {
   return (
-    <div className="">
-      <h1 className="min-w-96 text-6xl sm:text-4xl text-center font-sans text-blue-950">
+    <div className="m-3">
+      <h1 className="text-6xl sm:text-4xl text-center font-sans text-blue-950">
         Experiences
       </h1>
 

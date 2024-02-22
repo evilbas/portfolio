@@ -8,14 +8,13 @@ const ProfileDescPage = () => {
         style={{
           height: "40vh",
           width: "100%",
-          minWidth: "400px",
         }}
       >
-        <div className="p-4">
-          <h1 className="text-4xl text-center pt-3 text-cyan-100">
+        <div className="p-2">
+          <h1 className="text-4xl text-center text-cyan-100">
             Full Stack Developper - DevOps
           </h1>
-          <p className="font-thin pt-2 text-2xl bg-gradient-to-r from-cyan-100 via-green-900 to-blue-200 inline-block text-transparent bg-clip-text animate-rotate-x">
+          <p className="font-thin p-2 text-2xl bg-gradient-to-r from-cyan-100 via-green-900 to-blue-200 text-transparent bg-clip-text animate-rotate-x">
             &quot;Titulaire d&apos;un Master Expert en Informatique et Système
             d&apos;Information, je suis un Développeur Fullstack et DevOps avec
             trois ans d&apos;expérience dans le domaine des TI. J&apos;ai
