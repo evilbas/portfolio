@@ -1,5 +1,4 @@
 import CardSkillsPage from "./components/card-skill";
-import ProfileDesc from "./components/profile-desc";
 import UsersPage from "./users/page";
 
 export default function Home() {

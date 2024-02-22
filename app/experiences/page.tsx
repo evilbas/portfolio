@@ -1,22 +1,22 @@
 const ExperiencesPage = () => {
   return (
-    <div className="mx-40">
-      <h1 className="text-center text-4xl font-sans text-blue-950">
+    <div className="">
+      <h1 className="min-w-96 text-6xl sm:text-4xl text-center font-sans text-blue-950">
         Experiences
       </h1>
 
-      <div className="border-l-2 border-l-blue-100 pl-8 mb-20">
-        <h2 className="text-2xl font-sans">
+      <div className="mb-20">
+        <h2 className="text-4xl sm:text-2xl font-sans">
           School<span className="text-blue-500">TECH</span> -
           {" personnal project"}
         </h2>
         <h4 className="text-xl font-sans">Bordeaux</h4>
-        <p>
+        <p className="text-xl">
           January 24 -{" "}
           <span className="badge badge-primary p-2">In progress...</span>
         </p>
         <div className="mt-3">
-          <p className="text-lg font-light text-justify">
+          <p className="text-2xl sm:text-xl md:text-lg font-light text-justify md:p-4">
             Je met en place une plateforme d&apos;apprentissage en ligne, de
             simulation, de recherche, de documentation et de gestion
             d&apos;institut sur plusieurs domaines. Cette plateforme mettra à
@@ -29,13 +29,13 @@ const ExperiencesPage = () => {
             confiance dans la qualité des contenus proposés et s&apos;engager
             efficacement dans leur processus d&apos;apprentissage.
           </p>
-          <h3 className="mt-4 text-xl font-sans p-3">Missions</h3>
+          <h3 className="mt-4 text-2xl sm:text-lg font-sans p-3">Missions</h3>
           <div>
             <ul className="list-disc list-inside">
               <li>
                 Mettre en place une methode de gestion de projet efficace et
                 l&apos;environnement DevOps
-                <ul className="ml-10 flex gap-10 mt-2 mb-4">
+                <ul className="ml-10 flex flex-wrap gap-5 mt-2 mb-4">
                   <li className="badge badge-primary p-2">SCRUM</li>
                   <li className="badge badge-primary p-2">GitFlow - CI/CD</li>
                   <li className="badge badge-primary p-2">Jira</li>
@@ -62,7 +62,7 @@ const ExperiencesPage = () => {
               </li>
               <li>
                 Concevoir et développer l&apos;API de la plateforme
-                <ul className="ml-10 flex gap-10 mt-2 mb-4">
+                <ul className="ml-10 flex flex-wrap gap-5 mt-2 mb-4">
                   <li className="badge badge-neutral p-2">Spring Boot</li>
                   <li className="badge badge-neutral p-2">PostgreSQL</li>
                   <li className="badge badge-neutral p-2">MySQL</li>
@@ -84,13 +84,15 @@ const ExperiencesPage = () => {
         </div>
       </div>
 
-      <div className="border-l-2 border-l-blue-100 pl-8">
-        <h2 className="text-2xl font-sans">At Softimeo / Actimeo</h2>
+      <div className="mb-20">
+        <h2 className="text-4xl sm:text-2xl font-sans">
+          At Softimeo / Actimeo
+        </h2>
         <h4 className="text-xl font-sans">Marmande</h4>
-        <p>September 2021 - September 2023</p>
+        <p className="text-xl font-sans">September 2021 - September 2023</p>
 
         <div className="mt-3">
-          <p className="text-lg font-light text-justify">
+          <p className="text-2xl sm:text-xl md:text-lg font-light text-justify md:p-4">
             Dans le cadre de mon apprentissage au sein de la société Softimeo,
             j&apos;ai eu l&apos;opportunité de travailler sur un projet
             innovant: Le{" "}
