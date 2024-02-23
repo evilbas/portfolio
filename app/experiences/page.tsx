@@ -5,7 +5,7 @@ const ExperiencesPage = () => {
         Experiences
       </h1>
 
-      <div className="mb-20">
+      <div className="p-4 mb-20">
         <h2 className="text-4xl sm:text-2xl font-sans">
           School<span className="text-blue-500">TECH</span> -
           {" personnal project"}
@@ -16,7 +16,7 @@ const ExperiencesPage = () => {
           <span className="badge badge-primary p-2">In progress...</span>
         </p>
         <div className="mt-3">
-          <p className="text-2xl sm:text-xl md:text-lg font-light md:p-4">
+          <p className="text-xl text-justify md:text-lg font-light md:p-4">
             Je mets en place une plateforme d&apos;apprentissage en ligne, de
             simulation, de recherche, de documentation et de gestion
             d&apos;institut (pluridisciplinaires). Cette plateforme offre aux
@@ -84,7 +84,7 @@ const ExperiencesPage = () => {
         </div>
       </div>
 
-      <div className="mb-20">
+      <div className="p-4 mb-20">
         <h2 className="text-4xl sm:text-2xl font-sans">
           At Softimeo / Actimeo
         </h2>
@@ -92,7 +92,7 @@ const ExperiencesPage = () => {
         <p className="text-xl font-sans">September 2021 - September 2023</p>
 
         <div className="mt-3">
-          <p className="text-2xl sm:text-xl md:text-lg font-light text-justify md:p-4">
+          <p className="text-xl text-justify md:text-lg font-light md:p-4">
             Dans le cadre de mon apprentissage au sein de la société Softimeo,
             j&apos;ai eu l&apos;opportunité de travailler sur un projet
             innovant: Le{" "}
