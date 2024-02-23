@@ -16,13 +16,13 @@ const ExperiencesPage = () => {
           <span className="badge badge-primary p-2">In progress...</span>
         </p>
         <div className="mt-3">
-          <p className="text-2xl sm:text-xl md:text-lg font-light text-justify md:p-4">
-            Je met en place une plateforme d&apos;apprentissage en ligne, de
+          <p className="text-2xl sm:text-xl md:text-lg font-light md:p-4">
+            Je mets en place une plateforme d&apos;apprentissage en ligne, de
             simulation, de recherche, de documentation et de gestion
-            d&apos;institut sur plusieurs domaines. Cette plateforme mettra à
-            disposition des apprenants une gamme d&apos;outils adaptés à leurs
-            besoins. En premier lieu, ils pourront explorer un large choix de
-            cours en fonction de ses préférences et de critères de recherche
+            d&apos;institut (pluridisciplinaires). Cette plateforme offre aux
+            apprenants une gamme d&apos;outils adaptés à leurs besoins. En
+            premier lieu, ils pourront explorer un large choix de cours en
+            fonction de leurs préférences et de critères de recherche
             spécifiques. Ces cours, élaborés par des professionnels, sont
             soigneusement conçus pour être accessibles et faciles à comprendre
             grâce à la pédagogie employée. Ainsi, les apprenants pourront avoir

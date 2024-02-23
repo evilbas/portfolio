@@ -18,65 +18,71 @@ import { SiPostgresql } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 
-const TIIconsPages = () => {
+const TIIconsPages = ({
+  color = "black",
+  size = 6,
+}: {
+  color?: string;
+  size?: number;
+}) => {
   return (
     <ul className="mt-5 flex flex-wrap gap-4 justify-center">
-      <li className="text-6xl sm:text-4xl">
-        <IoLogoJavascript />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <IoLogoJavascript fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaNodeJs />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaNodeJs fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaReact />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaReact fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <TbBrandNextjs />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <TbBrandNextjs color={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaAngular />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaAngular fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaJava />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaJava fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <TbBrandKotlin />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <TbBrandKotlin color={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <SiSpringboot />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <SiSpringboot fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <SiQuarkus />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <SiQuarkus fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaPhp />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaPhp fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaSymfony />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaSymfony fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaLaravel />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaLaravel fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <SiCsharp />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <SiCsharp fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaGitSquare />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaGitSquare fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <FaDocker />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <FaDocker fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <SiKubernetes />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <SiKubernetes fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <SiPostgresql />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <SiPostgresql fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <DiMysql />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <DiMysql fill={color} />
       </li>
-      <li className="text-6xl sm:text-4xl">
-        <SiMongodb />
+      <li className={`text-${size}xl sm:text-${size - 2}xl`}>
+        <SiMongodb fill={color} />
       </li>
     </ul>
   );

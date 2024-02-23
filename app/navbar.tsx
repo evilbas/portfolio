@@ -4,7 +4,6 @@ import Image from "next/image";
 import UsedLinksPage from "./components/used-links";
 import Link from "next/link";
 import { useState } from "react";
-import ProfileDescPage from "./components/profile-desc";
 
 const Navbar = () => {
   const [navbarToggle, setNavbarToggle] = useState(true);
@@ -79,7 +78,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <ProfileDescPage />
     </>
   );
 };

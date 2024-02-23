@@ -1,9 +1,11 @@
 import CardSkillsPage from "./components/card-skill";
+import ProfileDescPage from "./components/profile-desc";
 import UsersPage from "./users/page";
 
 export default function Home() {
   return (
     <div>
+      <ProfileDescPage />
       <div
         className="flex flex-wrap gap-4 justify-center"
         style={{ marginTop: "5rem" }}
