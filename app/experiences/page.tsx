@@ -5,7 +5,7 @@ const ExperiencesPage = () => {
         Experiences
       </h1>
 
-      <div className="p-4 mb-20">
+      <div className="p-4">
         <h2 className="text-4xl sm:text-2xl font-sans">
           School<span className="text-blue-500">TECH</span> -
           {" personnal project"}
@@ -31,7 +31,7 @@ const ExperiencesPage = () => {
           </p>
           <h3 className="mt-4 text-2xl sm:text-lg font-sans p-3">Missions</h3>
           <div>
-            <ul className="list-disc list-inside">
+            <ul className="list-disc">
               <li>
                 Mettre en place une methode de gestion de projet efficace et
                 l&apos;environnement DevOps
@@ -84,14 +84,14 @@ const ExperiencesPage = () => {
         </div>
       </div>
 
-      <div className="p-4 mb-20">
+      <div className="p-4">
         <h2 className="text-4xl sm:text-2xl font-sans">
           At Softimeo / Actimeo
         </h2>
         <h4 className="text-xl font-sans">Marmande</h4>
         <p className="text-xl font-sans">September 2021 - September 2023</p>
 
-        <div className="mt-3">
+        <div className="mt-2">
           <p className="text-xl text-justify md:text-lg font-light md:p-4">
             Dans le cadre de mon apprentissage au sein de la société Softimeo,
             j&apos;ai eu l&apos;opportunité de travailler sur un projet
@@ -120,26 +120,26 @@ const ExperiencesPage = () => {
           </p>
 
           <h3 className="mt-4 text-xl font-sans p-3">Missions</h3>
-          <div className="">
-            <p>Partciper à la conception et au développement de SOFTI</p>
-            <p>
+          <ul className="list-disc">
+            <li>Partciper à la conception et au développement de SOFTI</li>
+            <li>
               Partciper à la conception de la base de données:{" "}
               <span className="badge badge-neutral p-2">PostgreSQL</span>
-            </p>
-            <p>
-              Conception de l&apos;API:{" "}
+            </li>
+            <li>
+              Concevoir l&apos;API:{" "}
               <span className="badge badge-neutral p-2">PHP 8.0</span>
-            </p>
-            <p>
-              Conception des interfaces webisées:{" "}
+            </li>
+            <li>
+              Concevoir les interfaces webisées:{" "}
               <span className="badge badge-neutral">Angular 14</span>
-            </p>
-            <p>
-              Mise en place du processus d&apos;importation et
+            </li>
+            <li>
+              Mettre en place un processus d&apos;importation et
               d&apos;exportation des données:{" "}
               <span className="badge badge-neutral p-2">ETL</span>
-            </p>
-          </div>
+            </li>
+          </ul>
           <ul className="my-4 flex gap-2">
             <li className="badge badge-primary p-2">Debian</li>
             <li className="badge badge-primary p-2">Apache 2</li>

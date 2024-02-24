@@ -28,20 +28,21 @@ const Navbar = () => {
                 objectFit: "cover",
                 width: "100px",
                 height: "100px",
+                margin: "0 20px",
               }}
             />
             <div className="ml-4 flex flex-col items-start">
               <h1 className="max-w-80 mb-2 text-2xl font-semibold pt-10 text-gray-300">
                 {"Full Stack Developper and Devops Engineer".toUpperCase()}
               </h1>
-              <p>
+              {/* <p>
                 <span className="text-cyan-800">
                   CEO at{" "}
                   <span className="text-slate-200 hover:text-slate-400 cursor-pointer hover:underline transition-colors">
                     <Link href="#">{"EcoLibrairie School"}</Link>
                   </span>
                 </span>
-              </p>
+              </p> */}
             </div>
           </div>
           <button

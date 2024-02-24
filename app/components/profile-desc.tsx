@@ -1,6 +1,7 @@
 "use client";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import TIIconsPages from "./ti-icons";
+import Link from "next/link";
 
 const ProfileDescPage = () => {
   return (
@@ -23,18 +24,24 @@ const ProfileDescPage = () => {
             />
             Titulaire d&apos;un Master Expert en Informatique et Système
             d&apos;Information, je suis un Développeur Fullstack et DevOps avec
-            trois ans d&apos;expérience dans le domaine des TI. J&apos;ai
+            une expérience significative dans le domaine des TI. J&apos;ai
             travaillé sur plusieurs projets et je suis capable de travailler sur
             plusieurs technologies. Egalement, je suis capable de travailler en
-            équipe et de gérer des projets informatique. Je suis très motive et
-            je suis prêt à relever de nouveaux défis. Mes compétences en DevOps
-            me permettent de mettre en place un environnement opérationnel
-            intégrant les TDD et en facilitant le déploiement des applications;
-            ce qui est un atout pour une entreprise.
+            équipe et de gérer des projets informatique en mode classique, agile
+            ou &quot;semi-agile&quot;. Je suis très motivé et je suis prêt à
+            relever de nouveaux défis. Mes compétences en DevOps me permettent
+            de mettre en place un environnement opérationnel intégrant les TDD
+            et facilitant l'évolution, l'orchestration et le déploiement des
+            applications; ce qui est un atout pour une entreprise.
             <RiDoubleQuotesL
               className="relative -bottom-2 inline rotate-180 text-3xl"
               fill="yellow"
             />
+            <span>
+              <Link className="btn btn-info" href="contact">
+                Me contacter
+              </Link>
+            </span>
           </p>
         </div>
 

@@ -10,9 +10,8 @@ const UsedLinksPage = () => {
     { name: "Home", url: "/" },
     { name: "About", url: "/about" },
     { name: "Experiences", url: "/experiences" },
-    { name: "Skills", url: "/skills" },
+    { name: "Skills - Ti", url: "/ti" },
     { name: "Projects", url: "/projects" },
-    { name: "TI", url: "/ti" },
     { name: "Contact", url: "/contact" },
   ];
 
