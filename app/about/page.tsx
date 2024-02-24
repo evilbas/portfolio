@@ -1,3 +1,5 @@
+"use client";
+
 import PDFViewer from "../components/pdf-viewer";
 
 const AboutPage = () => {
