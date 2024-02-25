@@ -1,5 +1,6 @@
 import { CSSProperties } from "react";
 import TIIconsPages from "../components/ti-icons";
+import { Metadata } from "next";
 
 const TechologiesPage = () => {
   return (
@@ -133,6 +134,11 @@ const TechologiesPage = () => {
       </div>
     </div>
   );
+};
+
+export const metadata: Metadata = {
+  title: "Asin Portfolio - Technologies",
+  description: "View my skills and my work. Technologies I use.",
 };
 
 export default TechologiesPage;

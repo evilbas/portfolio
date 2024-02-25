@@ -39,14 +39,16 @@ const ProfileDescPage = () => {
               fill="yellow"
             />
             <span>
-              <Link className="btn btn-info" href="contact">
+              <Link className="btn btn-sm btn-info" href="contact">
                 Me contacter
               </Link>
             </span>
           </p>
         </div>
 
-        <TIIconsPages color="gray" size={4} />
+        <div className="pb-10">
+          <TIIconsPages color="gray" size={4} />
+        </div>
       </div>
     </>
   );

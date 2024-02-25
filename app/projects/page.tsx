@@ -1,3 +1,6 @@
+import { Metadata } from "next";
+import Link from "next/link";
+
 const ProjectsPage = () => {
   return (
     <div
@@ -46,13 +49,19 @@ const ProjectsPage = () => {
         </p>
         <div className="flex justify-center mt-6">
           <span className="inline-flex rounded-md shadow-sm">
-            <a className="btn btn-neutral" href="mailto:asin.mou@gmail.com">
+            <Link className="btn btn-neutral" href="/contact">
               Leave me a message
-            </a>
+            </Link>
           </span>
         </div>
       </div>
     </div>
   );
 };
+
+export const metadata: Metadata = {
+  title: "Asin Portfolio - Projects",
+  description: "View my projects and my work.",
+};
+
 export default ProjectsPage;

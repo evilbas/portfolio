@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 const ExperiencesPage = () => {
   return (
     <div className="m-3">
@@ -151,4 +153,8 @@ const ExperiencesPage = () => {
   );
 };
 
+export const metadata: Metadata = {
+  title: "Asin Portfolio - Experiences",
+  description: "View my experiences, my work and my projects.",
+};
 export default ExperiencesPage;

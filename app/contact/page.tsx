@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegAddressBook } from "react-icons/fa";
 
@@ -44,6 +45,11 @@ const ContactsPage = () => {
       </div>
     </>
   );
+};
+
+export const metadata: Metadata = {
+  title: "Asin Portfolio - Contacts",
+  description: "Contact me to know more about my work.",
 };
 
 export default ContactsPage;
