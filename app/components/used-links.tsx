@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const UsedLinksPage = () => {
+const UsedLinksPage = ({ handleToggle }: { handleToggle: () => void }) => {
   const currentPath = usePathname();
 
   const links = [
@@ -25,6 +25,7 @@ const UsedLinksPage = () => {
         >
           <Link
             href={link.url}
+            onClick={handleToggle}
             className={currentPath == link.url ? "text-cyan-300" : ""}
           >
             {link.name.toUpperCase()}

@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between">
           <div
             style={{ display: "flex" }}
-            className="flex items-center space-x-3 rtl:space-x-reverse"
+            className="flex items-center space-x-3 rtl:space-x-reverse mt-2"
           >
             <Image
               src="/images/profile.jpg"
@@ -25,13 +25,13 @@ const Navbar = () => {
                 border: "2px solid #fff",
                 boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)",
                 objectFit: "cover",
-                width: "100px",
-                height: "100px",
+                width: "80px",
+                height: "80px",
                 margin: "0 20px",
               }}
             />
-            <div className="ml-4 flex flex-col items-start">
-              <h1 className="max-w-80 mb-2 text-2xl font-semibold pt-10 text-gray-300">
+            <div>
+              <h1 className="max-w-80 mb-2 hidden sm:inline-block text-2xl pt-10 text-gray-300">
                 {"Full Stack Developper and Devops Engineer".toUpperCase()}
               </h1>
             </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
             hidden={navbarToggle}
             id="navbar-toggle"
           >
-            <UsedLinksPage />
+            <UsedLinksPage handleToggle={() => setNavbarToggle(true)} />
           </div>
         </div>
       </nav>
