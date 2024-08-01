@@ -31,7 +31,7 @@ const ExperiencesPage = () => {
             gestion de projets plus efficace et organisée, avec une interface
             conviviale et facile à utiliser. <br />
             Pour un usage personnel, System 3P aide les individus à organiser
-            leurs propres projets et tâches, qu&pos;il s&apos;agisse de projets
+            leurs propres projets et tâches, qu&apos;il s&apos;agisse de projets
             professionnels ou personnels. Les utilisateurs peuvent créer des
             listes de tâches, définir des priorités, et suivre leur progression.
             Cette plateforme est idéale pour ceux qui cherchent à mieux

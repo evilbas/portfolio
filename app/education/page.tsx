@@ -10,10 +10,10 @@ const EducationPage = () => {
       <div className="flex flex-col items-center justify-center">
         <div>
           <h1 className="text-2xl">
-            Ecole d&pos;Ingénierie Informatique (EPSI)
+            Ecole d&apos;Ingénierie Informatique (EPSI)
           </h1>
           <p className="text-lg">
-            Master Expert en Informatique et Système d&pos;Information.
+            Master Expert en Informatique et Système d&apos;Information.
           </p>
           <p className="badge badge-neutral">2021 - 2023</p>
         </div>
@@ -24,19 +24,19 @@ const EducationPage = () => {
             <ul className="px-3 text-left list-decimal">
               <li>
                 Analyse et définition de la stratégie des systèmes
-                d&pos;information
+                d&apos;information
               </li>
               <li>Pilotage d’un projet Système d’Information</li>
               <li>
-                Management d&pos;un projet informatique dans un environnement
+                Management d&apos;un projet informatique dans un environnement
                 agile en collaboration avec les parties prenantes
               </li>
               <li>
-                Pilotage de l&pos;informatique décisionnelle d’un système
+                Pilotage de l&apos;informatique décisionnelle d’un système
                 d’information
               </li>
               <li>
-                Développement d&pos;une solution applicative spécifique et
+                Développement d&apos;une solution applicative spécifique et
                 métier
               </li>
               <li>
@@ -56,11 +56,11 @@ const EducationPage = () => {
                 <li>Ingénierie des besoins et conception applicative</li>
                 <li>Développement Cloud & I.A</li>
                 <li>Test et intégration</li>
-                <li>Mise en place de l&pos;applicatif</li>
+                <li>Mise en place de l&apos;applicatif</li>
               </ul>
             </div>
             <h1 className="font-bold md:font-normal md:text-2xl mt-3">
-              Piloter l&pos;informatique décisionnel d&pos;un S.I (Big Data &
+              Piloter l&apos;informatique décisionnel d&apos;un S.I (Big Data &
               BI)
             </h1>
             <div>
@@ -73,16 +73,16 @@ const EducationPage = () => {
               </ul>
             </div>
             <h1 className="font-bold md:font-normal md:text-2xl mt-3">
-              Analyser et définir la stratégie d&pos;un Système
-              d&pos;Information
+              Analyser et définir la stratégie d&apos;un Système
+              d&apos;Information
             </h1>
             <div>
               <ul className="list-disc">
                 <li>Veille et analyse des besoins</li>
                 <li>
-                  Management et performance d&pos;un Système d&pos;Information
+                  Management et performance d&apos;un Système d&apos;Information
                 </li>
-                <li>Sécurité d&pos;un Système d&pos;Information</li>
+                <li>Sécurité d&apos;un Système d&apos;Information</li>
                 <li>Stratégie SI</li>
                 <li>RSE et SI</li>
               </ul>
@@ -94,7 +94,7 @@ const EducationPage = () => {
             <div>
               <ul className="list-disc">
                 <li>Management de projet et agile</li>
-                <li>Management d&pos;équipe et environnement multiculturel</li>
+                <li>Management d&apos;équipe et environnement multiculturel</li>
               </ul>
             </div>
           </div>
@@ -107,7 +107,7 @@ const EducationPage = () => {
           <p className="text-lg">
             Licence et Master 1 Mathématiques et Informatique. <br />
             <span>
-              Transmission des Données et Sécurité de l&pos;Information (TDSI)
+              Transmission des Données et Sécurité de l&apos;Information (TDSI)
             </span>
           </p>
           <p className="badge badge-neutral">2019 - 2020</p>
@@ -118,11 +118,11 @@ const EducationPage = () => {
           <div className="alert">
             <ul className="px-3 text-left list-decimal">
               <li>
-                Sécurité des systèmes d&pos;information et audit de sécurité
+                Sécurité des systèmes d&apos;information et audit de sécurité
               </li>
               <li>Sécurité des réseaux informatique</li>
               <li>
-                Développement d&pos;applications sécurisées (avec Java/JEE,
+                Développement d&apos;applications sécurisées (avec Java/JEE,
                 Python, C#, .Net, XML, PHP-MySQL)
               </li>
               <li>
@@ -144,13 +144,13 @@ const EducationPage = () => {
                 <li>Langage de programmation et Framework</li>
                 <li>Base de données</li>
                 <li>Développement Web et Mobile</li>
-                <li>Systèmes d&pos;exploitation</li>
-                <li>Système d&pos;information</li>
+                <li>Systèmes d&apos;exploitation</li>
+                <li>Système d&apos;information</li>
                 <li>Analyse Informatique</li>
                 <li>Réseaux et Systèmes</li>
                 <li>Sécurité des systèmes et services réseaux</li>
                 <li>Administration Système et services réseaux</li>
-                <li>Projet de fin d&pos;année</li>
+                <li>Projet de fin d&apos;année</li>
               </ul>
             </div>
             <h1 className="font-bold md:font-normal md:text-2xl mt-3">
@@ -171,9 +171,9 @@ const EducationPage = () => {
             </h1>
             <div>
               <ul className="list-disc">
-                <li>Création d&pos;entreprise</li>
+                <li>Création d&apos;entreprise</li>
                 <li>Gestion de projet</li>
-                <li>Techniques d&pos;expression</li>
+                <li>Techniques d&apos;expression</li>
                 <li>Anglais</li>
               </ul>
             </div>
