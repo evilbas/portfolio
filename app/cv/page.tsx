@@ -11,7 +11,7 @@ const AboutPage = () => {
       <PDFViewer pdfUrl="files/abdoulayebacv.pdf" />
 
       <button className="my-3 btn btn-neutral">
-        <a href="files/asincv.pdf" download="asincv.pdf">
+        <a href="files/abdoulayebacv.pdf" download="adoulaye_ba_cv.pdf">
           Télécharcher mon CV
         </a>
       </button>

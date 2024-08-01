@@ -7,8 +7,8 @@ import FooterPage from "./footer/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "asin portfolio",
-  description: "asin portfolio website with next.js",
+  title: "Abdoulaye BA - portfolio",
+  description: "My personal portfolio and projects",
   authors: [{ name: "Abdoulaye BA" }],
   keywords: ["portfolio", "profile", "curriculum vitae", "cv", "projects"],
 };
