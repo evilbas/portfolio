@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const ContactsPage = () => {
   return (
-    <div id="contact">
+    <div id="contact" className="min-h-screen">
       <h1 className="text-4xl font-bold text-cyan-800 text-center">Contact</h1>
 
       <div className="py-6 flex flex-col justify-center sm:py-12">
