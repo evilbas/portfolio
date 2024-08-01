@@ -1,7 +1,7 @@
 "use client";
 import { RiDoubleQuotesL } from "react-icons/ri";
-import TIIconsPages from "./ti-icons";
 import Link from "next/link";
+import TIIcons from "./ti-icons";
 
 const ProfileDescPage = () => {
   return (
@@ -22,24 +22,20 @@ const ProfileDescPage = () => {
               className="relative bottom-2 inline text-3xl"
               fill="yellow"
             />
-            Titulaire d&apos;un Master Expert en Informatique et Système
-            d&apos;Information, je suis un Développeur Fullstack et DevOps avec
-            une expérience significative dans le domaine des TI. J&apos;ai
-            travaillé sur plusieurs projets et je suis capable de travailler sur
-            plusieurs technologies. Egalement, je suis capable de travailler en
-            équipe et de gérer des projets informatique en mode classique, agile
-            ou &quot;semi-agile&quot;. Je suis très motivé et je suis prêt à
-            relever de nouveaux défis. Mes compétences en DevOps me permettent
-            de mettre en place un environnement opérationnel intégrant les TDD
-            et facilitant l&apos;évolution, l&apos;orchestration et le
-            déploiement des applications; ce qui est un atout pour une
-            entreprise.
+            Développeur Full Stack, spécialisé en Spring Boot et Java pour le
+            backend, et en Angular et React pour le frontend. Compétent en
+            JavaScript et Typescript, je crée des applications robustes et
+            performantes. Passionné par l'amélioration continue et la
+            collaboration efficace en équipe, je suis capable de transformer des
+            exigences complexes en solutions intuitives et fonctionnelles, avec
+            une attention particulière aux détails et à l'expérience
+            utilisateur.
             <RiDoubleQuotesL
               className="relative -bottom-2 inline rotate-180 text-3xl"
               fill="yellow"
             />
             <span>
-              <Link className="btn btn-sm btn-info" href="contact">
+              <Link className="btn btn-sm btn-info" href="#contact">
                 Me contacter
               </Link>
             </span>
@@ -47,7 +43,7 @@ const ProfileDescPage = () => {
         </div>
 
         <div className="pb-10">
-          <TIIconsPages color="gray" size={4} />
+          <TIIcons color="gray" size={4} />
         </div>
       </div>
     </>

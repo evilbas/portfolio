@@ -8,11 +8,12 @@ const UsedLinksPage = () => {
 
   const links = [
     { name: "Home", url: "/" },
-    { name: "About", url: "/about" },
     { name: "Experiences", url: "/experiences" },
-    { name: "Skills - Ti", url: "/ti" },
+    { name: "Education", url: "/education" },
+    { name: "Skills", url: "/skills" },
     { name: "Projects", url: "/projects" },
     { name: "Contact", url: "/contact" },
+    { name: "CV", url: "/cv" },
   ];
 
   return (

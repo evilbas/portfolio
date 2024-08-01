@@ -18,9 +18,9 @@ import { SiPostgresql } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 
-const TIIconsPages = ({
+const TIIcons = ({
   color = "black",
-  size = 6,
+  size = 3,
 }: {
   color?: string;
   size?: number;
@@ -88,4 +88,4 @@ const TIIconsPages = ({
   );
 };
 
-export default TIIconsPages;
+export default TIIcons;

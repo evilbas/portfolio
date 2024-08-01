@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "asin portfolio",
   description: "asin portfolio website with next.js",
-  authors: [{ name: "asin" }],
-  keywords: ["next.js", "typescript", "tailwindcss"],
+  authors: [{ name: "Abdoulaye BA" }],
+  keywords: ["portfolio", "profile", "curriculum vitae", "cv", "projects"],
 };
 
 export default function RootLayout({

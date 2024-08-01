@@ -2,15 +2,15 @@ import { Metadata } from "next";
 
 const ExperiencesPage = () => {
   return (
-    <div className="m-3">
-      <h1 className="text-6xl sm:text-4xl text-center font-sans text-blue-950">
+    <div id="experiences" className="px-5 lg:px-40">
+      <h1 className="py-5 text-4xl font-bold text-cyan-800 text-center">
         Experiences
       </h1>
 
       <div className="p-4">
         <h2 className="text-4xl sm:text-2xl font-sans">
-          School<span className="text-blue-500">TECH</span> -
-          {" personnal project"}
+          System<span className="text-blue-500">3P</span> -
+          {" Projet Personnel et Profesionnel (3P)"}
         </h2>
         <h4 className="text-xl font-sans">Bordeaux</h4>
         <p className="text-xl">
@@ -19,17 +19,24 @@ const ExperiencesPage = () => {
         </p>
         <div className="mt-3">
           <p className="text-xl text-justify md:text-lg font-light md:p-4">
-            Je mets en place une plateforme d&apos;apprentissage en ligne, de
-            simulation, de recherche, de documentation et de gestion
-            d&apos;institut (pluridisciplinaires). Cette plateforme offre aux
-            apprenants une gamme d&apos;outils adaptés à leurs besoins. En
-            premier lieu, ils pourront explorer un large choix de cours en
-            fonction de leurs préférences et de critères de recherche
-            spécifiques. Ces cours, élaborés par des professionnels, sont
-            soigneusement conçus pour être accessibles et faciles à comprendre
-            grâce à la pédagogie employée. Ainsi, les apprenants pourront avoir
-            confiance dans la qualité des contenus proposés et s&apos;engager
-            efficacement dans leur processus d&apos;apprentissage.
+            System 3P est un projet de "Gestion des Tâches" conçu pour aider les
+            managers dans une entreprise informatique à gérer leurs projets et
+            leurs tâches, ainsi que les affectations aux membres de leur équipe.
+            Cette plateforme permet aux managers de créer des tâches et des
+            projets, et de les attribuer aux développeurs, designers, testeurs,
+            et autres collaborateurs. Elle offre également la possibilité aux
+            utilisateurs de suivre l&apos;avancement des projets, de gérer les
+            priorités, et de faciliter la communication au sein de
+            l&apos;équipe. La plateforme est pensée pour rendre la gestion de
+            projets plus efficace et organisée, avec une interface conviviale et
+            facile à utiliser. <br />
+            Pour un usage personnel, System 3P aide les individus à organiser
+            leurs propres projets et tâches, qu&pos;il s&apos;agisse de projets
+            professionnels ou personnels. Les utilisateurs peuvent créer des
+            listes de tâches, définir des priorités, et suivre leur progression.
+            Cette plateforme est idéale pour ceux qui cherchent à mieux
+            structurer leur travail et à augmenter leur productivité de manière
+            simple et intuitive.
           </p>
           <h3 className="mt-4 text-2xl sm:text-lg font-sans p-3">Missions</h3>
           <div>
@@ -39,8 +46,8 @@ const ExperiencesPage = () => {
                 l&apos;environnement DevOps
                 <ul className="ml-10 flex flex-wrap gap-5 mt-2 mb-4">
                   <li className="badge badge-primary p-2">SCRUM</li>
-                  <li className="badge badge-primary p-2">GitFlow - CI/CD</li>
-                  <li className="badge badge-primary p-2">Jira</li>
+                  <li className="badge badge-primary p-2">Gitlab</li>
+                  <li className="badge badge-primary p-2">Jenkins - CI/CD</li>
                   <li className="badge badge-primary p-2">Docker</li>
                   <li className="badge badge-primary p-2">Kubernetes</li>
                 </ul>
@@ -59,7 +66,6 @@ const ExperiencesPage = () => {
                   </li>
                   <li className="badge badge-info p-2">Reactive Gateway</li>
                   <li className="badge badge-info p-2">Kafka</li>
-                  <li className="badge badge-info p-2">gRPC</li>
                 </ul>
               </li>
               <li>
@@ -76,8 +82,8 @@ const ExperiencesPage = () => {
                 Conception de l&apos;interface d&apos;administration et des
                 utilisateurs finaux
                 <ul className="ml-10 flex gap-10 mt-2 mb-4">
+                  <li className="badge badge-success p-2">Angular</li>
                   <li className="badge badge-success p-2">React</li>
-                  <li className="badge badge-success p-2">Next.js</li>
                   <li className="badge badge-success p-2">TailwindCSS</li>
                 </ul>
               </li>
@@ -95,7 +101,7 @@ const ExperiencesPage = () => {
 
         <div className="mt-2">
           <p className="text-xl text-justify md:text-lg font-light md:p-4">
-            Dans le cadre de mon apprentissage au sein de la société Softimeo,
+            Dans le cadre de mes messions au sein de la société Softimeo,
             j&apos;ai eu l&apos;opportunité de travailler sur un projet
             innovant: Le{" "}
             <span className="hover:underline text-blue-800 font-semibold">
@@ -141,6 +147,7 @@ const ExperiencesPage = () => {
               d&apos;exportation des données:{" "}
               <span className="badge badge-neutral p-2">ETL</span>
             </li>
+            <li>Mettre en place la sécurité des applications</li>
           </ul>
           <ul className="my-4 flex gap-2">
             <li className="badge badge-primary p-2">Debian</li>
@@ -154,7 +161,22 @@ const ExperiencesPage = () => {
 };
 
 export const metadata: Metadata = {
-  title: "Asin Portfolio - Experiences",
-  description: "View my experiences, my work and my projects.",
+  title: "Abdoulaye BA Portfolio - Experiences",
+  description:
+    "Discover the experiences I have had in the field of computer science. Contact me for more information.",
+  category: "Experiences",
+  twitter: {
+    card: "summary",
+    site: "@evilbas1038",
+    title: "Abdoulaye BA Portfolio - Experiences",
+    description:
+      "Discover the experiences I have had in the field of computer science. Contact me for more information.",
+    images: [
+      {
+        url: "/images/experiences.jpg",
+        alt: "Abdoulaye BA Portfolio - Experiences",
+      },
+    ],
+  },
 };
 export default ExperiencesPage;

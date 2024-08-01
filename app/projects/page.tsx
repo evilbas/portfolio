@@ -4,34 +4,35 @@ import Link from "next/link";
 const ProjectsPage = () => {
   return (
     <div
-      className=""
+      id="projects"
+      className="px-5 lg:px-40"
       style={{
         height: "100vh",
       }}
     >
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold text-cyan-800">Mes Réalisations</h1>
+        <h1 className="py-5 text-4xl font-bold text-cyan-800">Projects</h1>
         <div
           className="flex flex-wrap gap-4 justify-center"
           style={{ marginTop: "5rem" }}
         >
           <div className="flex flex-col items-center">
             <h1 className="text-xl font-semibold pt-10 text-gray-300">
-              {"EcoLibrairie".toUpperCase()}
+              {"System 3P".toUpperCase()}
             </h1>
             <p>
               <span className="text-cyan-800">
-                Learnings and Earnings Platform for Students
+                Gestion des projets informatiques
               </span>
             </p>
           </div>
           <div className="flex flex-col items-center">
             <h1 className="text-xl font-semibold pt-10 text-gray-300">
-              {"SchoolTECH".toUpperCase()}
+              {"e3p-docs".toUpperCase()}
             </h1>
             <p>
               <span className="text-cyan-800">
-                School Management Platform for Teachers and Students
+                Plateforme de recherche et de documentation technologique
               </span>
             </p>
           </div>
@@ -60,8 +61,23 @@ const ProjectsPage = () => {
 };
 
 export const metadata: Metadata = {
-  title: "Asin Portfolio - Projects",
-  description: "View my projects and my work.",
+  title: "Abdoulaye BA Portfolio - Projects",
+  description:
+    "Discover the projects I'm working on. Contact me for more information.",
+  category: "Projects",
+  twitter: {
+    card: "summary",
+    site: "@evilbas1038",
+    title: "Abdoulaye BA Portfolio - Projects",
+    description:
+      "Discover the projects I'm working on. Contact me for more information.",
+    images: [
+      {
+        url: "/images/projects.jpg",
+        alt: "Abdoulaye BA Portfolio - Projects",
+      },
+    ],
+  },
 };
 
 export default ProjectsPage;

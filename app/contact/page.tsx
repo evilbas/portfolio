@@ -1,11 +1,10 @@
 import { Metadata } from "next";
 import { FaLinkedin } from "react-icons/fa";
-import { FaRegAddressBook } from "react-icons/fa";
 
 const ContactsPage = () => {
   return (
-    <>
-      <h1 className="text-3xl text-center my-2">Contacts</h1>
+    <div id="contact">
+      <h1 className="text-4xl font-bold text-cyan-800 text-center">Contact</h1>
 
       <div className="py-6 flex flex-col justify-center sm:py-12">
         <div className="relative py-3 sm:max-w-xl sm:mx-auto">
@@ -43,13 +42,26 @@ const ContactsPage = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
 export const metadata: Metadata = {
-  title: "Asin Portfolio - Contacts",
+  title: "Abdoulaye BA Portfolio - Contacts",
   description: "Contact me to know more about my work.",
+  category: "contact",
+  twitter: {
+    card: "summary",
+    site: "@evilbas1038",
+    title: "Abdoulaye BA Portfolio - Contacts",
+    description: "Contact me to know more about my work.",
+    images: [
+      {
+        url: "/images/contact.jpg",
+        alt: "Abdoulaye BA Portfolio - Contacts",
+      },
+    ],
+  },
 };
 
 export default ContactsPage;

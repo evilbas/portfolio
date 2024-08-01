@@ -2,14 +2,13 @@
 
 import Image from "next/image";
 import UsedLinksPage from "./components/used-links";
-import Link from "next/link";
 import { useState } from "react";
 
 const Navbar = () => {
   const [navbarToggle, setNavbarToggle] = useState(true);
   return (
     <>
-      <nav className="pb-5 bg-blue-950 border-gray-200 dark:bg-white-900">
+      <nav className="sticky top-0 z-10 pb-5 bg-blue-950 border-gray-200 dark:bg-white-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between">
           <div
             style={{ display: "flex" }}
@@ -35,14 +34,6 @@ const Navbar = () => {
               <h1 className="max-w-80 mb-2 text-2xl font-semibold pt-10 text-gray-300">
                 {"Full Stack Developper and Devops Engineer".toUpperCase()}
               </h1>
-              {/* <p>
-                <span className="text-cyan-800">
-                  CEO at{" "}
-                  <span className="text-slate-200 hover:text-slate-400 cursor-pointer hover:underline transition-colors">
-                    <Link href="#">{"EcoLibrairie School"}</Link>
-                  </span>
-                </span>
-              </p> */}
             </div>
           </div>
           <button

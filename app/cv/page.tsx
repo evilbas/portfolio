@@ -4,8 +4,10 @@ import PDFViewer from "../components/pdf-viewer";
 
 const AboutPage = () => {
   return (
-    <div className="text-center">
-      <h1 className="m-2 text-center text-4xs">Currículum Vitae</h1>
+    <div id="cv" className="text-center">
+      <h1 className="py-5 text-4xl font-bold text-cyan-800 text-center">
+        Curriculum Vitae
+      </h1>
       <PDFViewer pdfUrl="files/asincv.pdf" />
 
       <button className="my-3 btn btn-neutral">
