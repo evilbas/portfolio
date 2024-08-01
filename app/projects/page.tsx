@@ -73,7 +73,7 @@ export const metadata: Metadata = {
       "Discover the projects I'm working on. Contact me for more information.",
     images: [
       {
-        url: "/images/projects.jpg",
+        url: "/images/profile.jpg",
         alt: "Abdoulaye BA Portfolio - Projects",
       },
     ],

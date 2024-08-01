@@ -98,7 +98,7 @@ export const metadata: Metadata = {
       "The technologies used for the development of my personal and professional projects.",
     images: [
       {
-        url: "/images/skills.jpg",
+        url: "/images/profile.jpg",
         alt: "Abdoulaye BA Portfolio - Technologies",
       },
     ],

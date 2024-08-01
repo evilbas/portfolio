@@ -1,6 +1,6 @@
 import ProfileDescPage from "./components/profile-desc";
 import ExperiencesPage from "./experiences/page";
-import EducationPage from "./formations/page";
+import EducationPage from "./education/page";
 import ProjectsPage from "./projects/page";
 import ContactsPage from "./contact/page";
 import SkillsPage from "./skills/page";

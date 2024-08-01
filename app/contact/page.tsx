@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     description: "Contact me to know more about my work.",
     images: [
       {
-        url: "/images/contact.jpg",
+        url: "/images/profile.jpg",
         alt: "Abdoulaye BA Portfolio - Contacts",
       },
     ],

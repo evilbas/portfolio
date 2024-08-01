@@ -19,17 +19,17 @@ const ExperiencesPage = () => {
         </p>
         <div className="mt-3">
           <p className="text-xl text-justify md:text-lg font-light md:p-4">
-            System 3P est un projet de "Gestion des Tâches" conçu pour aider les
-            managers dans une entreprise informatique à gérer leurs projets et
-            leurs tâches, ainsi que les affectations aux membres de leur équipe.
-            Cette plateforme permet aux managers de créer des tâches et des
-            projets, et de les attribuer aux développeurs, designers, testeurs,
-            et autres collaborateurs. Elle offre également la possibilité aux
-            utilisateurs de suivre l&apos;avancement des projets, de gérer les
-            priorités, et de faciliter la communication au sein de
-            l&apos;équipe. La plateforme est pensée pour rendre la gestion de
-            projets plus efficace et organisée, avec une interface conviviale et
-            facile à utiliser. <br />
+            System 3P est un projet de &quot;Gestion des Tâches&quot; conçu pour
+            aider les managers dans une entreprise informatique à gérer leurs
+            projets et leurs tâches, ainsi que les affectations aux membres de
+            leur équipe. Cette plateforme permet aux managers de créer des
+            tâches et des projets, et de les attribuer aux développeurs,
+            designers, testeurs, et autres collaborateurs. Elle offre également
+            la possibilité aux utilisateurs de suivre l&apos;avancement des
+            projets, de gérer les priorités, et de faciliter la communication au
+            sein de l&apos;équipe. La plateforme est pensée pour rendre la
+            gestion de projets plus efficace et organisée, avec une interface
+            conviviale et facile à utiliser. <br />
             Pour un usage personnel, System 3P aide les individus à organiser
             leurs propres projets et tâches, qu&pos;il s&apos;agisse de projets
             professionnels ou personnels. Les utilisateurs peuvent créer des
@@ -173,7 +173,7 @@ export const metadata: Metadata = {
       "Discover the experiences I have had in the field of computer science. Contact me for more information.",
     images: [
       {
-        url: "/images/experiences.jpg",
+        url: "/images/profile.jpg",
         alt: "Abdoulaye BA Portfolio - Experiences",
       },
     ],
