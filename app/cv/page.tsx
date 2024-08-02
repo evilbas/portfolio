@@ -8,10 +8,10 @@ const AboutPage = () => {
       <h1 className="py-5 text-4xl font-bold text-cyan-800 text-center">
         Curriculum Vitae
       </h1>
-      <PDFViewer pdfUrl="files/abdoulayebacv.pdf" />
+      <PDFViewer pdfUrl="files/abdoulaye_ba_cv.pdf" />
 
       <button className="my-3 btn btn-neutral">
-        <a href="files/abdoulayebacv.pdf" download="adoulaye_ba_cv.pdf">
+        <a href="files/abdoulaye_ba_cv.pdf" download="Abdoulaye BA CV.pdf">
           Télécharcher mon CV
         </a>
       </button>
