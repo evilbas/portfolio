@@ -20,7 +20,7 @@ const ContactsPage = () => {
               <div className="flex justify-center mt-6">
                 <span className="inline-flex rounded-md shadow-sm">
                   <a
-                    href="mailto:asin@gmail.com"
+                    href="mailto:asin.mou@gmail.com"
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-white hover:bg-indigo-50"
                   >
                     Send Email
