@@ -89,6 +89,12 @@ const ExperiencesPage = () => {
               </li>
             </ul>
           </div>
+          <video
+            className="rounded-box"
+            src="/medias/s3p-media.mp4"
+            controls
+            autoPlay
+          ></video>
         </div>
       </div>
 
@@ -101,7 +107,7 @@ const ExperiencesPage = () => {
 
         <div className="mt-2">
           <p className="text-xl text-justify md:text-lg font-light md:p-4">
-            Dans le cadre de mes messions au sein de la société Softimeo,
+            Dans le cadre de mes missions au sein de la société Softimeo,
             j&apos;ai eu l&apos;opportunité de travailler sur un projet
             innovant: Le{" "}
             <span className="hover:underline text-blue-800 font-semibold">

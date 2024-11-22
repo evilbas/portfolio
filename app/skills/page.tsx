@@ -4,14 +4,57 @@ import SkillItem from "../components/skill-item";
 
 const SkillsPage = () => {
   return (
-    <div id="skills mb-10">
+    <div id="skills mb-10" className="bg-gray-100 min-h-screen">
       <h1 className="py-5 text-4xl font-bold text-cyan-800 text-center">
-        Technologies
+        Skills
       </h1>
       <br />
-      <TIIconsPages />
+      <div className="lg:w-8/12 m-auto ">
+        <TIIconsPages color="" size={6} />
 
-      <div className="my-5 animate-rotate-x">
+        <div className="mx-20 md:mx-0 flex flex-col gap-5 md:flex-row justify-around mt-20">
+          <div>
+            <ul>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Créativité
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Esprit d'Equipe
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Autonomie
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Communication
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Collaboration
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Amélioration Continue
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Gestion des Changements
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Planification des Tâches
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Culture DevOps
+              </li>
+              <li className="list-disc text-2xl md:text-3xl font-thin">
+                Github - Gitlab
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="my-5 animate-rotate-x">
         <div className="mt-10">
           <h1 className="mb-4 text-3xl sm:text2xl text-center">
             Structure et Design
@@ -35,13 +78,12 @@ const SkillsPage = () => {
           </div>
           <div className="flex flex-wrap justify-around gap-5">
             <SkillItem progression={80} name="PHP" />
-            <SkillItem progression={50} name="C#" />
+            <SkillItem progression={70} name="C#" />
             <SkillItem progression={70} name="Python" />
             <SkillItem progression={50} name="C" />
           </div>
         </div>
       </div>
-
       <div className="animate-bounce animate-twice">
         <div className="mt-10">
           <h1 className="mb-10 text-3xl sm:text2xl text-center">
@@ -80,7 +122,7 @@ const SkillsPage = () => {
             <SkillItem progression={80} name="Github" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
