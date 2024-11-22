@@ -101,7 +101,7 @@ const ExperiencesPage = () => {
             </ul>
           </div>
           <video
-            className="rounded-box"
+            className=" shadow-2xl"
             src="/medias/s3p-media.mp4"
             controls
             autoPlay

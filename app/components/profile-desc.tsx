@@ -45,6 +45,18 @@ const ProfileDescPage = () => {
         <div className="pb-10">
           <TIIcons color="gray" size={4} />
         </div>
+
+        <div className="flex flex-col items-center">
+          <h1 className="font-extralight bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-[4rem] md:text-[5rem] lg:text-[6rem]">
+            Recherche
+          </h1>
+          <h1 className="font-extralight bg-gradient-to-r from-indigo-400 via-blue-600 to-green-500 inline-block text-transparent bg-clip-text text-[4rem] md:text-[5rem] lg:text-[6rem]">
+            Innovation
+          </h1>
+          <h1 className="font-extrabold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-[4rem] md:text-[5rem] lg:text-[6rem]">
+            Créativité
+          </h1>
+        </div>
       </div>
     </>
   );
