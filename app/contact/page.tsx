@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const ContactsPage = () => {
   return (
-    <div id="contact" className="min-h-screen">
+    <div id="contact" className="min-h-screen bg-slate-50">
       <h1 className="text-4xl font-bold text-cyan-800 text-center">Contact</h1>
 
       <div className="py-6 flex flex-col justify-center sm:py-12">
@@ -41,6 +41,19 @@ const ContactsPage = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="mt-10 flex gap-10 items-center justify-center">
+        <a href="/cv" className="hover:text-cyan-800">
+          Voir CV
+        </a>
+        <a
+          href="files/abdoulaye_ba_cv.pdf"
+          download="Abdoulaye BA CV.pdf"
+          className="hover:text-cyan-800"
+        >
+          Télécharcher CV
+        </a>
       </div>
     </div>
   );

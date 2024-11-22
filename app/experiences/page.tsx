@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { CiLink } from "react-icons/ci";
 
 const ExperiencesPage = () => {
   return (
@@ -17,6 +18,16 @@ const ExperiencesPage = () => {
           January 24 -{" "}
           <span className="badge badge-primary p-2">In progress...</span>
         </p>
+        <div className="flex gap-3 items-center">
+          <CiLink size={30} />
+          <a
+            className="link hover:text-cyan-800"
+            target="_blank"
+            href="https://www.system3p.online"
+          >
+            Plus d&apos;informations
+          </a>
+        </div>
         <div className="mt-3">
           <p className="text-xl text-justify md:text-lg font-light md:p-4">
             System 3P est un projet de &quot;Gestion des Tâches&quot; conçu pour
@@ -69,7 +80,7 @@ const ExperiencesPage = () => {
                 </ul>
               </li>
               <li>
-                Concevoir et développer l&apos;API de la plateforme
+                Concevoir et développer l&apos;API de la Solution 3P
                 <ul className="ml-10 flex flex-wrap gap-5 mt-2 mb-4">
                   <li className="badge badge-neutral p-2">Spring Boot</li>
                   <li className="badge badge-neutral p-2">PostgreSQL</li>
@@ -79,7 +90,7 @@ const ExperiencesPage = () => {
                 </ul>
               </li>
               <li>
-                Conception de l&apos;interface d&apos;administration et des
+                Concevoir les interfaces d&apos;administration et des
                 utilisateurs finaux
                 <ul className="ml-10 flex gap-10 mt-2 mb-4">
                   <li className="badge badge-success p-2">Angular</li>

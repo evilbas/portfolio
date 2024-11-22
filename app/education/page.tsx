@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { FaGraduationCap } from "react-icons/fa6";
 
 const EducationPage = () => {
   return (
@@ -16,6 +17,16 @@ const EducationPage = () => {
             Master Expert en Informatique et Système d&apos;Information.
           </p>
           <p className="badge badge-neutral">2021 - 2023</p>
+          <div className="flex gap-3 items-center">
+            <FaGraduationCap size={40} color="green" />
+            <a
+              target="_blank"
+              className="link hover:text-cyan-800"
+              href="https://geagijc.r.bh.d.sendibt3.com/tr/cl/MfxEjM5aWBIfbI3j8Z9KtZ6cpfafep1NfxmIOlqTRaMkeYJsp2-gw508Atu2Tk7l3LJYA1nsruXdBySlHfxicO4ZOhCeER-o5Qr5kvKlRMZPRFypL-_FZxnoNMs8_-9d9WPa-tdVAdDqxSEiHnZyRcmNq5xjwJCJxfKpoOxyqHFdW6xHf5-PDQw3RMamAGscG93SzBkmSYIuVsyYjnZNGq0oouaPoMuAjKEfHLMXWZsXo8UCifx2561pS2cmPKBD5gUO5N8lx0oa_RzsOYb-XFTn756dXcVI1Z7KQ-PPoRqW9ThnnBmUd2Tc2smJiuhIoTE27k5D5MPJvri36HxNMWejMIFbBgEFRPt22MSZsHlX2bMTqqJ9jSIkvzJ85BjZMnoBvhfja75UnOi1aZwzROj2qE7TQGC1_jMY6YLTZtfwjunHj-cnOKqyiEfceN_djy4pbsfBpIw71P_58pInw2Y"
+            >
+              Diplôme
+            </a>
+          </div>
         </div>
 
         <div className="my-10">
@@ -110,7 +121,7 @@ const EducationPage = () => {
               Transmission des Données et Sécurité de l&apos;Information (TDSI)
             </span>
           </p>
-          <p className="badge badge-neutral">2019 - 2020</p>
+          <p className="badge badge-neutral">2017 - 2020</p>
         </div>
 
         <div className="my-10">

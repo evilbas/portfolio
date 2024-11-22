@@ -31,9 +31,9 @@ const Navbar = () => {
               }}
             />
             <div>
-              <h1 className="max-w-80 mb-2 hidden sm:inline-block text-2xl pt-10 text-gray-300">
-                {"Full Stack Developper and Devops Engineer".toUpperCase()}
-              </h1>
+              <ul className="max-w-80 hidden sm:inline-block text-xl pt-5 text-gray-300">
+                {"Full Stack Developper Devops Engineer".toUpperCase()}
+              </ul>
             </div>
           </div>
           <button
