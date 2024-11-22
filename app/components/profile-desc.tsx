@@ -15,7 +15,7 @@ const ProfileDescPage = () => {
       >
         <div className="relative p-2">
           <h1 className="text-4xl text-center text-cyan-100">
-            Full Stack Developper - DevOps
+            Full Stack Developper - DevOps Engineer
           </h1>
           <p className="p-2 text-xl font-thin text-cyan-100 animate-rotate-x">
             <RiDoubleQuotesL
