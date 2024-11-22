@@ -52,7 +52,7 @@ const ContactsPage = () => {
           download="Abdoulaye BA CV.pdf"
           className="hover:text-cyan-800"
         >
-          Télécharcher CV
+          Télécharger CV
         </a>
       </div>
     </div>
