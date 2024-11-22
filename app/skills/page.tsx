@@ -19,7 +19,7 @@ const SkillsPage = () => {
                 Créativité
               </li>
               <li className="list-disc text-2xl md:text-3xl font-thin">
-                Esprit d'Equipe
+                Esprit d&apos;Equipe
               </li>
               <li className="list-disc text-2xl md:text-3xl font-thin">
                 Autonomie
