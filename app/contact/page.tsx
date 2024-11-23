@@ -44,13 +44,13 @@ const ContactsPage = () => {
       </div>
 
       <div className="mt-10 flex gap-10 items-center justify-center">
-        <a href="/cv" className="hover:text-cyan-800">
+        <a href="/cv" className="btn hover:text-cyan-800">
           Voir CV
         </a>
         <a
           href="files/abdoulaye_ba_cv.pdf"
           download="Abdoulaye BA CV.pdf"
-          className="hover:text-cyan-800"
+          className="btn hover:text-cyan-800"
         >
           Télécharger CV
         </a>

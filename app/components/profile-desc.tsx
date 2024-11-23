@@ -22,20 +22,21 @@ const ProfileDescPage = () => {
               className="relative bottom-2 inline text-3xl"
               fill="yellow"
             />
-            Développeur Full Stack, spécialisé en Spring Boot et Java pour le
-            backend, et en Angular et React pour le frontend. Compétent en
-            JavaScript et Typescript, je crée des applications robustes et
-            performantes. Passionné par l&apos;amélioration continue et la
-            collaboration efficace en équipe, je suis capable de transformer des
-            exigences complexes en solutions intuitives et fonctionnelles, avec
-            une attention particulière aux détails et à l&apos;expérience
-            utilisateur.
+            <b>Développeur Full Stack</b>, spécialisé en développement backend
+            avec Java, C#/.NET et Python, et frontend avec Angular et React.
+            Avec une maîtrise approfondie des frameworks modernes et des
+            technologies comme JavaScript et TypeScript, je conçois des
+            applications robustes, performantes et évolutives. Passionné par
+            l'amélioration continue et la collaboration en équipe, je transforme
+            des exigences complexes en solutions intuitives et orientées
+            utilisateur, tout en assurant une grande attention aux détails et à
+            l'expérience utilisateur.
             <RiDoubleQuotesL
               className="relative -bottom-2 inline rotate-180 text-3xl"
               fill="yellow"
             />
             <span>
-              <Link className="btn btn-sm btn-info" href="#contact">
+              <Link className="btn btn-sm btn-info" href="/contact">
                 Me contacter
               </Link>
             </span>

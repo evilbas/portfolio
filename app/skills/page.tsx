@@ -4,13 +4,13 @@ import SkillItem from "../components/skill-item";
 
 const SkillsPage = () => {
   return (
-    <div id="skills mb-10" className="bg-gray-100 min-h-screen">
+    <div id="skills mb-10" className="min-h-screen">
       <h1 className="py-5 text-4xl font-bold text-cyan-800 text-center">
         Skills
       </h1>
       <br />
       <div className="lg:w-8/12 m-auto ">
-        <TIIconsPages color="" size={6} />
+        <TIIconsPages color="dodgerblue" size={6} />
 
         <div className="mx-20 md:mx-0 flex flex-col gap-5 md:flex-row justify-around mt-20">
           <div>

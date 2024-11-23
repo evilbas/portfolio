@@ -12,13 +12,13 @@ export default function Home() {
 
       <h3 className="text-2xl text-center"></h3>
 
-      <div className="-z-10">
+      {/* <div className="-z-10">
         <ExperiencesPage />
         <SkillsPage />
         <EducationPage />
         <ProjectsPage />
         <ContactsPage />
-      </div>
+      </div> */}
     </div>
   );
 }

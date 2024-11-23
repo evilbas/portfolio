@@ -41,17 +41,17 @@ const ProjectsPage = () => {
 
       <div className="mt-3 text-center">
         <h3 className="text-6xl">In progress</h3>
-        <p className="md:mx-40">
-          These projects are in progress and will be available soon on the web.
-          Actually, I&apos;m working on the backend of these projects. If you
-          want to know more about these projects, please contact me. I will be
-          happy to share with you the progress of these projects. Please, click
-          the button below to send me an email.
+        <p className="md:mx-40 text-justify">
+          Ces projets sont en cours et seront bientôt disponibles sur le web. En
+          fait, je travaille sur le backend de ces projets. Si vous souhaitez en
+          savoir plus sur ces projets, contactez-moi. Il me fera plaisir de
+          partager avec vous l&apos;avancée de ces projets. Veuillez cliquez sur
+          le bouton ci-dessous pour m&apos;envoyer un e-mail.
         </p>
         <div className="flex justify-center mt-6">
           <span className="inline-flex rounded-md shadow-sm">
             <Link className="btn btn-neutral" href="/contact">
-              Leave me a message
+              Contactez-moi
             </Link>
           </span>
         </div>
