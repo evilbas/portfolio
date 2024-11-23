@@ -27,10 +27,10 @@ const ProfileDescPage = () => {
             Avec une maîtrise approfondie des frameworks modernes et des
             technologies comme JavaScript et TypeScript, je conçois des
             applications robustes, performantes et évolutives. Passionné par
-            l'amélioration continue et la collaboration en équipe, je transforme
-            des exigences complexes en solutions intuitives et orientées
-            utilisateur, tout en assurant une grande attention aux détails et à
-            l'expérience utilisateur.
+            l&apos;amélioration continue et la collaboration en équipe, je
+            transforme des exigences complexes en solutions intuitives et
+            orientées utilisateur, tout en assurant une grande attention aux
+            détails et à l&apos;expérience utilisateur.
             <RiDoubleQuotesL
               className="relative -bottom-2 inline rotate-180 text-3xl"
               fill="yellow"
