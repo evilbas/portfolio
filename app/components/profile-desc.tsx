@@ -7,9 +7,8 @@ const ProfileDescPage = () => {
   return (
     <>
       <div
-        className="polyg bg-gradient-to-r from-blue-950 to-gray-900 overflow-y-auto min-h-screen"
+        className="polyg bg-gradient-to-r from-blue-950 to-gray-900"
         style={{
-          height: "40vh",
           width: "100%",
         }}
       >
